@@ -1,0 +1,48 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    height: 100vh;
+    max-height: 100vh;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 1.5em;
+    background-color:hotpink;
+    padding: 1rem;
+    border-radius: 3px;
+}
+.btn-flex {
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    width: 50%;
+    text-align: center;
+}
+
+.guess-btn, .input-box {
+    background-color:wheat;
+    border: none;
+    padding: 0.5rem 1rem;
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+.input-box:focus {
+    outline: none;
+}
+
+.text-1,
+.text-2,
+.text-3 {
+    color: #121212;
+}
